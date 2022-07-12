@@ -28,6 +28,12 @@ nav a {
     text-decoration: none;
 }
 
+/* 'hover' altera o visual do comportamento do menu quando cursor do mouse passa sobre ele */
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -44,6 +50,18 @@ nav a {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px; /*Arredonda as bordas das figuras*/
+}
+/*altera o comportamento quando o mouse estiver sobre li*/
+.produtos li:hover {
+    border-color: #C78C19;
+}
+/*'active' altera o comportamento dos produtos quando clicado/ativado*/
+.produtos li:active {
+    border-color: #088C19;
+}
+/*Quando o cursor estiver por cima do li de produtos o h2 será alterado*/
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produtos h2 {
