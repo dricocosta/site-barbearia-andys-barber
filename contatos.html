@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--Passa informações para o navegador-->
+        <meta charset="UTF-8">
+        <title>Contatos - Barbearia McGinty's</title>
+        <link rel="stylesheet" href="src/reset.css">
+        <link rel="stylesheet" href="src/style.css">   
+    </head>
+    <body> <!--Insere informações na página-->
+        <header>
+            <div class="caixa">
+                <h1><img src="src/logo1.jpg" width="250px"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> <!--tag <a> direciona para outra página-->
+                        <li><a href="produtos.html">Produtos</a></li> <!--"href" indica o endereço de destino-->
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </header>
+
+        <main>
+
+            <form> <!--Cria formulário para inserir informações-->
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
+
+                <label for="email" >Email</label>
+                <input type="text" id="email" class="input-padrao">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                <div>
+                    <p>Como prefere nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                </div>
+
+                <div>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select> <!--<select> é um seletor, um campo de seleção de item-->
+                        <option>Manhã</option> <!--"option" cria itens selecionáveis de um <select>-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" value="Enviar formulário">
+
+
+            </form>
+
+        </main>
+
+
+        <footer>
+            <img src="src/logo1.jpg" width="80px">
+            <p class="copyright">&copy; Copyright Barbearia McGinty's - 2019</p>
+        </footer>
+
+    </body>
+</html>
