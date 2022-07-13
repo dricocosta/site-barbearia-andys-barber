@@ -79,3 +79,14 @@ nav a:hover {
     margin: 10px 0 0;
 }
 
+footer {
+    text-align: center;
+    background: url("src/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: azure;
+    font-size: 13px;
+    margin: 20px;
+}
