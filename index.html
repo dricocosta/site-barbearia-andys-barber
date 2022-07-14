@@ -2,34 +2,76 @@
 <html lang="pt-br">
 	<head> <!--O head passa informações ao navegador -->
 		<meta charset="UTF-8">
-		<title>Barbearia McGinty's</title>
-		<link rel="stylesheet" href="src/style-home.css">
+		<title>Andy's Barber</title>
+        <link rel="stylesheet" href="src/reset.css">
+        <link rel="stylesheet" href="src/style.css"> 
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
 	</head>
 	<body>
 		<header>
-			<h1 class="titulo-principal">Barbearia McGinty's</h1>
-		</header>
-		<img id="banner1" src="src/banner1.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia McGinty's</h1>
+            <div class="caixa">
+                <h1><img src="src/logo1.jpg" width="250px"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li> <!--tag <a> direciona para outra página-->
+                        <li><a href="produtos.html">Produtos</a></li> <!--"href" indica o endereço de destino-->
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </header>
 
-			<p>Localizada na zona sul da cidade, a <strong>Barbearia McGinty's</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2020, a barbearia já é destaque na cidade e conquista novos clientes a cada dia.</p>
+		<img class="banner1" src="src/banner1.jpg">
 
-			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar autoestima e qualidade de vida aos clientes"</strong>.</em></p>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Andy's Barber</h2>
+				
+				<img class="utensilios" src="utensilios.jpg" alt="Utensílios de barbeiro">
 
-			<p>Oferecemos profisisonais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação aos nossos clientes.</p>
-		</div>
+				<p>Localizada na zona sul da cidade, a <strong>Andy's Barber</strong> 
+					traz para o mercado o que há de melhor para o seu cabelo e barba. 
+					Fundada em 2017, a barbearia já é destaque na cidade e conquista 
+					novos clientes a cada dia.</p>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h2>
-			<ul>
-				<li class="itens">Atendimento ao cliente</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais qualificados</li>
-			</ul>
-			<img src="src/beneficios.jpg" class="imagemBeneficios">
-		</div>
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar autoestima 
+					e qualidade de vida aos clientes"</strong>.</em></p>
+
+				<p>Oferecemos profisisonais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação aos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Estamos localizados na zona sul de São Paulo</p>
 			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.1033103952893!2d-46.722596611866926!3d-23.58950817000034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56ee5b7b0b39%3A0xdc7fdd5829d1968d!2sANDY&#39;S%20BARBER!5e0!3m2!1spt-BR!2sbr!4v1657830872306!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h2>
+				
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento ao cliente</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="src/beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+			</section>
+		</main>
+
+		<footer>
+            <img src="src/logo1.jpg" width="80px">
+            <p class="copyright">&copy; Copyright Andy's Barber - 2017</p>
+        </footer>
 	</body>	
 </html>
