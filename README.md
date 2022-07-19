@@ -1,4 +1,4 @@
 # Andy's Barber
 Projeto de criação do site da Barbearia Andy's Barber utilizando HTML e CSS.
 
-![image](https://user-images.githubusercontent.com/66333662/179088239-50575d34-d0db-495f-8fc6-e66bb8c0f440.png)
+![image](https://user-images.githubusercontent.com/66333662/179310244-1f4e9488-2a5f-4b16-9c51-3e395a9c9761.png)
